@@ -293,6 +293,10 @@ h1 {
   font-size: 4rem;
 }
 
+.hero-title {
+  font-size: 2.8rem;
+}
+
 h2 {
   font-size: 2.7rem;
 }
@@ -743,31 +747,6 @@ p {
   margin-bottom: 18px;
 }
 
-.chair-note {
-  display: grid;
-  grid-template-columns: 110px minmax(0, 1fr);
-  gap: 28px;
-  align-items: start;
-}
-
-.chair-note-simple {
-  grid-template-columns: 1fr;
-}
-
-.chair-mark {
-  width: 100px;
-  height: 100px;
-  display: grid;
-  place-items: center;
-  border-radius: 8px;
-  background: var(--gira-soft-gold);
-  border: 1px solid var(--gira-line);
-  color: var(--gira-navy-950);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 2.2rem;
-  font-weight: 700;
-}
-
 .cta-section {
   background: var(--gira-navy-950);
   color: #fff;
@@ -1037,6 +1016,10 @@ textarea[aria-invalid="true"] {
     font-size: 3.35rem;
   }
 
+  .hero-title {
+    font-size: 2.35rem;
+  }
+
   .hero-brand-name strong {
     font-size: 4.45rem;
   }
@@ -1127,6 +1110,10 @@ textarea[aria-invalid="true"] {
     font-size: 2.72rem;
   }
 
+  .hero-title {
+    font-size: 1.9rem;
+  }
+
   h2 {
     font-size: 2.15rem;
   }
@@ -1186,6 +1173,10 @@ textarea[aria-invalid="true"] {
     font-size: 2.28rem;
   }
 
+  .hero-title {
+    font-size: 1.6rem;
+  }
+
   .hero-brand-name {
     display: grid;
     gap: 10px;
@@ -1233,10 +1224,6 @@ textarea[aria-invalid="true"] {
   .glance-item,
   .glance-item:nth-child(2n) {
     border-right: 0;
-  }
-
-  .chair-note {
-    grid-template-columns: 1fr;
   }
 
   .footer-bottom {
