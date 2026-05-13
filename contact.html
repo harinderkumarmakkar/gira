@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us | GIRA</title>
+    <meta name="description" content="Contact GIRA about research collaboration, faculty exchange, student exchange, global immersion, semester exchange, think-tank initiatives, or advisory engagement.">
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo-lockup" href="index.html" aria-label="GIRA home">
+          <img src="assets/gira-logo.jpeg" alt="GIRA logo">
+          <span class="logo-copy">
+            <strong>GIRA</strong>
+            <span>Global Impact Research Alliance</span>
+          </span>
+        </a>
+        <nav class="primary-nav" id="primary-navigation" aria-label="Primary navigation">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="programs.html">Programs</a>
+          <a class="nav-link" href="research-think-tank.html">Research &amp; Think-Tank</a>
+          <a class="nav-link" href="fellows.html">Fellows</a>
+          <a class="mobile-nav-cta" href="contact.html">Contact Us</a>
+        </nav>
+        <div class="header-actions">
+          <a class="btn btn-primary" href="contact.html">Contact Us</a>
+        </div>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open menu">
+          <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 7h16M4 12h16M4 17h16"></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-hero">
+        <div class="narrow">
+          <div class="breadcrumb"><a href="index.html">Home</a> / Contact</div>
+          <span class="eyebrow">Contact</span>
+          <h1>Contact Us</h1>
+          <p class="lead">Contact GIRA by email at <a class="inline-link" href="mailto:contact@girablobal.org">contact@girablobal.org</a> or use the form below.</p>
+        </div>
+      </section>
+
+      <section aria-labelledby="contact-form-title">
+        <div class="container form-wrap">
+          <aside>
+            <div class="section-header">
+              <span class="eyebrow">GIRA</span>
+              <h2 id="contact-form-title">Send a message</h2>
+              <div class="section-rule"></div>
+            </div>
+            <p class="note">GIRA works through institutional partnerships. It does not provide individual tutoring, admissions consulting, or direct student-placement services.</p>
+            <p class="contact-email"><a href="mailto:contact@girablobal.org">contact@girablobal.org</a></p>
+          </aside>
+
+          <form class="card inquiry-form" data-inquiry-form action="https://formsubmit.co/contact@girablobal.org" method="POST">
+            <input type="hidden" name="_subject" value="New GIRA contact form submission">
+            <input type="hidden" name="_template" value="table">
+            <div class="form-grid">
+              <div class="field">
+                <label for="institution">Institution / Organization Name *</label>
+                <input id="institution" name="institution" autocomplete="organization" required aria-invalid="false">
+              </div>
+              <div class="field">
+                <label for="country">Country *</label>
+                <input id="country" name="country" autocomplete="country-name" required aria-invalid="false">
+              </div>
+              <div class="field">
+                <label for="website">Website *</label>
+                <input id="website" name="website" type="url" autocomplete="url" required aria-invalid="false">
+              </div>
+              <div class="field">
+                <label for="contact-person">Contact Person *</label>
+                <input id="contact-person" name="contact_person" autocomplete="name" required aria-invalid="false">
+              </div>
+              <div class="field">
+                <label for="designation">Designation / Role *</label>
+                <input id="designation" name="designation" autocomplete="organization-title" required aria-invalid="false">
+              </div>
+              <div class="field">
+                <label for="email">Institutional Email *</label>
+                <input id="email" name="email" type="email" autocomplete="email" required aria-invalid="false">
+              </div>
+              <div class="field">
+                <label for="phone">Phone / WhatsApp</label>
+                <input id="phone" name="phone" autocomplete="tel">
+              </div>
+              <div class="field">
+                <label for="interest">Area of Interest *</label>
+                <select id="interest" name="interest" required aria-invalid="false">
+                  <option value="">Select an area</option>
+                  <option>Research collaboration</option>
+                  <option>Faculty exchange</option>
+                  <option>Student exchange</option>
+                  <option>Global immersion program</option>
+                  <option>Semester exchange program</option>
+                  <option>Think-tank / policy research</option>
+                  <option>Fellowship / advisory engagement</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="region">Preferred Collaboration Region</label>
+                <input id="region" name="region">
+              </div>
+              <div class="field">
+                <label for="timeline">Intended Timeline</label>
+                <input id="timeline" name="timeline">
+              </div>
+              <div class="field full">
+                <label for="participants">Number of Students / Faculty Involved, if relevant</label>
+                <input id="participants" name="participants">
+              </div>
+              <div class="field full">
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" required aria-invalid="false"></textarea>
+              </div>
+              <div class="honeypot" aria-hidden="true">
+                <label for="website-url">Website URL</label>
+                <input id="website-url" name="website_url" tabindex="-1" autocomplete="off">
+              </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Submit</button>
+            <p class="form-message" data-form-message role="status" aria-live="polite" tabindex="-1"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a class="footer-logo" href="index.html" aria-label="GIRA home">
+              <img src="assets/gira-logo.jpeg" alt="GIRA logo">
+              <strong>GIRA</strong>
+            </a>
+            <p>GIRA is an initiative of AUA Technologies, advancing institutional research partnerships, management education collaboration, and sustainable global impact.</p>
+            <p>Advancing Research Partnerships for Sustainable Global Impact.</p>
+          </div>
+          <div>
+            <h3>Explore</h3>
+            <div class="footer-links">
+              <a href="about.html">About</a>
+              <a href="programs.html">Programs</a>
+              <a href="research-think-tank.html">Research &amp; Think-Tank</a>
+              <a href="fellows.html">Fellows</a>
+            </div>
+          </div>
+          <div>
+            <h3>Programs</h3>
+            <div class="footer-links">
+              <a href="programs.html#faculty-exchange">Faculty Exchange</a>
+              <a href="programs.html#student-exchange">Student Exchange</a>
+              <a href="programs.html#global-immersion">Global Immersion</a>
+              <a href="programs.html#semester-exchange">Semester Exchange</a>
+            </div>
+          </div>
+          <div>
+            <h3>Contact</h3>
+            <div class="footer-links">
+              <a href="contact.html">Contact Us</a>
+              <a href="mailto:contact@girablobal.org">contact@girablobal.org</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>&copy; <span data-year></span> Global Impact Research Alliance. All rights reserved.</span>
+          <span>Connecting Research. Creating Impact. Building Global Partnerships.</span>
+        </div>
+      </div>
+    </footer>
+    <script src="js/site.js"></script>
+  </body>
+</html>
