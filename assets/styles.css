@@ -666,6 +666,34 @@ p {
   border-bottom: 1px solid rgba(200, 150, 48, 0.55);
 }
 
+.contact-callout {
+  max-width: 880px;
+  margin-inline: auto;
+  padding: 44px;
+  text-align: center;
+  background: var(--gira-surface);
+  border: 1px solid var(--gira-line);
+  border-radius: 8px;
+  box-shadow: var(--shadow-soft);
+}
+
+.contact-callout h2 {
+  margin-top: 14px;
+  font-size: 3rem;
+  overflow-wrap: anywhere;
+}
+
+.contact-callout h2 a {
+  color: var(--gira-navy-950);
+  border-bottom: 2px solid rgba(200, 150, 48, 0.7);
+}
+
+.contact-callout p {
+  max-width: 680px;
+  margin: 22px auto 0;
+  color: var(--gira-muted);
+}
+
 .stepper {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -942,24 +970,6 @@ textarea[aria-invalid="true"] {
   border-color: #9d2b2b;
 }
 
-.honeypot {
-  position: absolute;
-  left: -9999px;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-}
-
-.form-message {
-  min-height: 30px;
-  color: var(--gira-navy-950);
-  font-weight: 750;
-}
-
-.form-message.error {
-  color: #9d2b2b;
-}
-
 .site-footer {
   background: var(--gira-navy-950);
   color: rgba(255, 255, 255, 0.8);
@@ -1204,6 +1214,14 @@ textarea[aria-invalid="true"] {
 
   .btn {
     width: 100%;
+  }
+
+  .contact-callout {
+    padding: 28px 18px;
+  }
+
+  .contact-callout h2 {
+    font-size: 1.7rem;
   }
 
   .glance-grid,
